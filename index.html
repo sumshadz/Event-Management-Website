@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Responsive Homepage design with Bootstrap and Animate css</title>
+    <script src="https://kit.fontawesome.com/d733855d1a.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.6.2/animate.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">    
+
+</head>
+<body>
+
+    <header>
+        <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Take Heart Events</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#aboutus">About</a></li>
+                        <li><a href="#project">projects</a></li>
+                        <li><a href="#pricing">pricing</a></li>
+                        <li><a href="#team">team</a></li>
+                        <li><a href="#blog">blog</a></li>
+                        <li><a href="#contact">contact</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+
+
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <div class="banner" style="background-image: url(./images/f4.jpg);"></div>
+                    
+                    <div class="carousel-caption">
+                        <h2 class="animated " style="animation-delay: 1s">We <span>are</span>...</h2>
+                        <h5 class="animated " style="animation-delay: 2s">Doing good together. Working with nonprofits to amplify their events is part of our passion and a service close to our hearts. We understand the importance of representing your organization’s mission and creating connections with donors that last throughout the year.</h5>
+                        <p class="animated  btn" style="animation-delay: 3s"><a href="#contact">Contact us</a></p>
+                    </div> <div class="overlay"></div>
+                </div>
+                <div class="item">
+                    <div class="banner" style="background-image: url(./images/f10.jpg);"></div>
+                    <div class="carousel-caption">
+                        <h2 class="animated " style="animation-delay: 1s">We<span>ddi</span>ng</h2>
+                        <h5 class="animated " style="animation-delay: 2s">Joy to the agenda. We delight in the details of your big day so you can sip, socialize and soak up every second from planning process to processional. Our collaborative approach helps couples create exceptional experiences that are flawless, effortless and tailored to their vision.</h5>
+       
+                        <p class="animated  btn" style="animation-delay: 3s"><a href="#contact">Contact us</a></p>
+                    </div> <div class="overlay"></div>
+                </div>
+                <div class="item">
+                    <div class="banner" style="background-image: url(./images/f8.jpg);"></div>
+                    <div class="carousel-caption">
+                        <h2 class="animated " style="animation-delay: 1s">Non <span>Profit</span> Events</span></h2>
+                        <h5 class="animated " style="animation-delay: 2s">Doing good together. Working with nonprofits to amplify their events is part of our passion and a service close to our hearts. We understand the importance of representing your organization’s mission and creating connections with donors that last throughout the year.</h5>
+                        
+                        <p class="animated  btn" style="animation-delay: 3s"><a href="#contact">Contact us</a></p>
+                    </div> <div class="overlay"></div>
+                </div>
+               
+            </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+    </header>
+    <section id="aboutus">
+      <div class="aboutus">
+        <div class="aboutus-head section-head">
+          <h1>About <span>Us</span></h1>
+        </div>
+        <div class="aboutus-body">
+          <div class="text">
+            <p>Best-known for taking Southern sophistication and infusing it with the wild spirit of nature, we’re always finding wow-worthy ways to incorporate sprawling greens and lush florals into a modern design aesthetic.<br>
+
+              But really, what sets Fox Events apart most is our above and beyond attitude. When it comes to creating a distinctly-you event where the bubbly and conversations flow freely, we believe that you and your guests are always worth the extra effort.<br>
+              
+              Whether it’s tying down tents in hurricane-force winds, hauling a piano up six flights of stairs, swinging unique requests, or surprising you with those thoughtful touches that can easily go overlooked, our clients tell us that we never fail to impress with our hands-on, collaborative approach.<br>
+            </p>
+          </div>
+          <div class="img">
+            <div class="img-inner">
+            <img src="./images/birthday2.jpg" alt="">
+          </div>
+          </div>
+        </div>
+        
+      </div>
+      <div class="flex">
+        <div class="card odd">
+          <div class="icon"><i class="far fa-bell"></i></div>
+          <div class="info">
+            <h3>Order</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo aliquam soluta nesciunt ipsum.<br>Discount |
+              Offer | Menu
+            </p>
+            <button class="button"><a>Order</a></button>
+          </div>
+        </div>
+        <div class="card even">
+          <div class="icon"><i class="far fa-envelope"></i></div>
+          <div class="info">
+            <h3>Subscribe</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam ipsa rem molestias voluptas? <br>Discount
+              | Offer | Menu</p>
+            <button class="button"><a href="#pricing">Subscribe</a></button>
+          </div>
+        </div>
+        <div class="card odd">
+          <div class="icon"><i class="fas fa-certificate"></i></div>
+          <div class="info">
+            <h3>Membership</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet aliquam ratione veniam unde?<br>Discount
+              | Offer | Menu</p>
+            <button class="button"><a href="#pricing">Member</a></button>
+          </div>
+        </div>
+      </div>
+     
+    </section>
+    <section id="project">
+      <div class="project">
+        <div class="project-head section-head">
+          <h1>Pro<span>je</span>cts</h1>
+        </div>
+        <div class="project-body">
+        <div class="project-item">
+          <div class="img">
+            <img src="./images/wedding5.jpg" alt="">
+          </div>
+          <div class="description">
+            <h4>wedding</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis officiis quo facilis iusto saepe architecto iste, beatae id deserunt a atque, reprehenderit doloremque impedit quisquam aut veritatis dolorum ipsum adipisci!</p>
+            <button class="btn"><a href="">learn more</a></button>
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="img">
+            <img src="./images/birthday1.jpg" alt="">
+          </div>
+          <div class="description">
+            <h4>Birthday</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis officiis quo facilis iusto saepe architecto iste, beatae id deserunt a atque, reprehenderit doloremque impedit quisquam aut veritatis dolorum ipsum adipisci!</p>
+            <button class="btn"><a href="">learn more</a></button>
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="img">
+            <img src="./images/header5.jpg" alt="">
+          </div>
+          <div class="description">
+            <h4>Corporate</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis officiis quo facilis iusto saepe architecto iste, beatae id deserunt a atque, reprehenderit doloremque impedit quisquam aut veritatis dolorum ipsum adipisci!</p>
+            <button class="btn"><a href="">learn more</a></button>
+          </div>
+        </div>
+        
+        </div>
+      </div>
+    </section>
+    <section class="membership" id="pricing">
+      <div class="section-head">
+      <h1 class="heading center" >Member<span>ship</span> Plan</h1>
+    </div>
+      <div class="plans-container">
+        <div class="plan">
+          <h3>STANDARD PLAN</h3>
+          <p class="cost">$5/month</p>
+          <p class="benefits">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia esse architecto doloribus
+            qui voluptate molestiae voluptates, dignissimos quaerat iste hic natus aliquid alias molestias adipisci quasi,
+            a, illum expedita? Blanditiis.</p>
+          <button type="button" class="secondary-btn">PURCHASE</button>
+        </div>
+        <!-- <div class="line"></div> -->
+        <div class="plan">
+          <h3>BUSINESS PLAN</h3>
+          <p class="cost">$15/month</p>
+          <p class="benefits">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia esse architecto doloribus
+            qui voluptate molestiae voluptates, dignissimos quaerat iste hic natus aliquid alias molestias adipisci quasi,
+            a, illum expedita? Blanditiis.</p>
+          <button type="button" class="secondary-btn">PURCHASE</button>
+        </div>
+        <!-- <div class="line"></div> -->
+        <div class="plan">
+          <h3>PREMIUM PLAN</h3>
+          <p class="cost">$30/month</p>
+          <p class="benefits">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia esse architecto doloribus
+            qui voluptate molestiae voluptates, dignissimos quaerat iste hic natus aliquid alias molestias adipisci quasi,
+            a, illum expedita? Blanditiis.</p>
+          <button type="button" class="secondary-btn">PURCHASE</button>
+        </div>
+      </div>
+    </section>
+    <section class="video-projects" id="videos">
+      <div class="section-head">
+      <h1 id="section-head" class="title center">Project Videos</h1></div>
+      <div class="slide-container dragscroll">
+        <div class="video-container flex">
+          <div class="video video1 focus">
+            <div class="play-btn video1"><i class="fas fa-play-circle"></i></div>
+            <video>
+              <source src="./images/v1.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <div class="video video2">
+            <div class="play-btn video2"><i class="fas fa-play-circle"></i></div>
+            <video>
+              <source src="./images/v2.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <div class="video video3">
+            <div class="play-btn video3"><i class="fas fa-play-circle"></i></div>
+            <video>
+              <source src="./images/v3.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <div class="video video4">
+            <div class="play-btn video4"><i class="fas fa-play-circle"></i></div>
+            <video>
+              <source src="./images/v4.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <div class="video video5">
+            <div class="play-btn video5"><i class="fas fa-play-circle"></i></div>
+            <video>
+              <source src="./images/v7.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <div class="video video6">
+            <div class="play-btn video6"><i class="fas fa-play-circle"></i></div>
+            <video>
+              <source src="./images/v6.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="team">
+     <div class="team">
+     <div class="section-head">
+       <h1>Tak<span>e</span> He<span>art</span> T<span>ea</span>m</h1>
+     </div>
+     <div class="team-body">
+       <div class="team-item">
+        <div class="image-container">
+          <img src="./images/team1.jpeg" alt="" class="team-fellow" />
+          <div class="icons center">
+            <a href=""><i class="fab fa-facebook-f facebook"></i></a>
+            <a href=""><i class="fab fa-twitter twitter"></i></a>
+            <a href=""><i class="fab fa-google google"></i></a>
+          </div>
+       </div>
+       <h2 class="name center">Amelia Margaret</h2>
+       <p class="profession center">Manager</p>
+       </div>
+       <div class="team-item">
+        <div class="image-container">
+          <img src="./images/p2.jpeg" alt="" class="team-fellow" />
+          <div class="icons center">
+            <a href=""><i class="fab fa-facebook-f facebook"></i></a>
+            <a href=""><i class="fab fa-twitter twitter"></i></a>
+            <a href=""><i class="fab fa-google google"></i></a>
+          </div>
+       </div>
+       <h2 class="name center">Sara Jhonson</h2>
+       <p class="profession center">Creatve Head</p>
+       </div>
+       <div class="team-item">
+        <div class="image-container">
+          <img src="./images/p3.jpeg" alt="" class="team-fellow" />
+          <div class="icons center">
+            <a href=""><i class="fab fa-facebook-f facebook"></i></a>
+            <a href=""><i class="fab fa-twitter twitter"></i></a>
+            <a href=""><i class="fab fa-google google"></i></a>
+          </div>
+       </div>
+       <h2 class="name center">mat Alex</h2>
+       <p class="profession center">Art Director</p>
+       </div>
+       <div class="team-item">
+        <div class="image-container">
+          <img src="./images/p4.jpeg" alt="" class="team-fellow" />
+          <div class="icons center">
+            <a href=""><i class="fab fa-facebook-f facebook"></i></a>
+            <a href=""><i class="fab fa-twitter twitter"></i></a>
+            <a href=""><i class="fab fa-google google"></i></a>
+          </div>
+       </div>
+       <h2 class="name center">Chris Philips</h2>
+       <p class="profession center">Senior Designer</p>
+       </div>
+       <div class="team-item">
+        <div class="image-container">
+          <img src="./images/p6.jpg" alt="" class="team-fellow" />
+          <div class="icons center">
+            <a href=""><i class="fab fa-facebook-f facebook"></i></a>
+            <a href=""><i class="fab fa-twitter twitter"></i></a>
+            <a href=""><i class="fab fa-google google"></i></a>
+          </div>
+       </div>
+       <h2 class="name center">Jimmi Smith</h2>
+       <p class="profession center">Marketing manager</p>
+       </div>
+       <div class="team-item">
+        <div class="image-container">
+          <img src="./images/p7.jpeg" alt="" class="team-fellow" />
+          <div class="icons center">
+            <a href=""><i class="fab fa-facebook-f facebook"></i></a>
+            <a href=""><i class="fab fa-twitter twitter"></i></a>
+            <a href=""><i class="fab fa-google google"></i></a>
+          </div>
+       </div>
+       <h2 class="name center">Aliza</h2>
+       <p class="profession center">Seo manager</p>
+       </div>
+       
+     </div>
+    </div>
+   </section>
+   <section class="gallery" id="gallery">
+    <div class="gallery">
+      <div class="section-head"><h1>Pho<span>to</span> Gallery</h1></div>
+      <div class="gallery-body">
+        <div class="slider-box">
+          <div id="slider">
+              <img src="images/wedding5.jpg" alt="">
+              <img src="images/header5.jpg" alt="">
+              <img src="images/f4.jpg" alt="">
+              <img src="images/f13.jpg" alt="">
+              <img src="images/f17.jpg" alt="">
+          </div>
+          <div class="indicators">
+              <span id="btn1" class="active"></span>
+              <span id="btn2"></span>
+              <span id="btn3"></span>
+              <span id="btn4"></span>
+          </div>
+      </div>
+  
+      </div>
+    </div>
+  </section>
+   <section id="news">
+     <div class="news">
+     <div class="section-head">
+       <h2>Newsle<span>tter</span> Signup</h2>
+     </div>
+     <div class="news-body">
+       <input type="text" placeholder="abc@gmail.com">
+       <button><a href="">SIGN UP</a></button>
+     </div>
+    </div>
+   </section>
+   <section id="blog">
+    <div class="blog">
+      <div class="section-head"><h1>Bl<span>og</span>s</h1></div>
+      <div class="blog-body">
+        <div class="blog-item">
+      <div class="blog-img">
+        <img src="./images/img2.jpg" alt="">
+      </div>
+      <div class="blog-content">
+        <h2 class="blog-head">Decoration</h2>
+        <p class="blog-date">20 Aug, 2021</p>
+        <p class="blog-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate doloremque dolorum, temporibus, porro asperiores expedita doloribus ducimus laudantium dolorem illo repellat praesentium reiciendis officiis omnis!</p>
+        <button class="blog-btn"><a href="">Read More</a></button>
+      </div>
+    </div>
+    <div class="blog-item">
+      <div class="blog-img">
+        <img src="./images/header6.jpg" alt="">
+      </div>
+      <div class="blog-content">
+        <h2 class="blog-head">Food</h2>
+        <p class="blog-date">20 Aug, 2021</p>
+        <p class="blog-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate doloremque dolorum, temporibus, porro asperiores expedita doloribus ducimus laudantium dolorem illo repellat praesentium reiciendis officiis omnis!</p>
+        <button class="blog-btn"><a href="">Read More</a></button>
+      </div>
+    </div>
+    <div class="blog-item">
+      <div class="blog-img">
+        <img src="./images/f16.jpg" alt="">
+      </div>
+      <div class="blog-content">
+        <h2 class="blog-head">Lights and Music</h2>
+        <p class="blog-date">20 Aug, 2021</p>
+        <p class="blog-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate doloremque dolorum, temporibus, porro asperiores expedita doloribus ducimus laudantium dolorem illo repellat praesentium reiciendis officiis omnis!</p>
+        <button class="blog-btn"><a href="">Read More</a></button>
+      </div>
+    </div>
+    </div>
+    <div class="line"></div>
+    </div>
+   </section>
+  <section class="contact" id="contact">
+    <div class="left-container">
+      <div class="mapouter">
+        <div class="gmap_canvas">
+         
+          <iframe class="gmap_iframe"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d198740.83318956103!2d-77.1546608134622!3d38.89367081286511!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c6de5af6e45b%3A0xc2524522d4885d2a!2sWashington%2C%20DC!5e0!3m2!1sen!2sus!4v1627982438332!5m2!1sen!2sus"
+            width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+          <a href="https://www.fridaynightfunkin.net/">FNF Download</a>
+        </div>
+        <style>
+          .mapouter {
+            position: relative;
+            text-align: right;
+            width: 100%;
+            height: 100%;
+          }
+
+          .gmap_canvas {
+            overflow: hidden;
+            background: none !important;
+            width: 100%;
+            height: 100%;
+          }
+
+          .gmap_iframe {
+            height: 100% !important;
+          }
+        </style>
+      </div>
+    </div>
+    <div class="right-container">
+      <h1>Contact</h1>
+      <hr class="hr">
+      <form action="">
+        <div class="name row">
+          <label for="name">Name</label>
+          <input type="text" name="name" placeholder="Enter your name">
+        </div>
+        <div class="email row">
+          <label for="email">Email Address</label>
+          <input type="email" name="email" placeholder="Enter valid email">
+        </div>
+        <div class="subject row">
+          <label for="subject">Subject</label>
+          <input type="text" name="subject" placeholder="Enter subject">
+        </div>
+        <div class="message row">
+          <label for="message">Message</label>
+          <textarea name="message" id="message" cols="30" rows="5"
+            placeholder="Type your message here ....."></textarea>
+        </div>
+        <button type="button" class="primary-btn send">SEND</button>
+      </form>
+
+    </div>
+  </section>
+  <footer>
+    <div class="footer-container">
+      <div class="address footer-comp">
+        <h4 class="head center">OFFICE ADDRESS</h4>
+        <p>1057 NW Washington DC,50049</p>
+      </div>
+      <div class="followUs footer-comp">
+        <h4 class="head center">FOLLOW US</h4>
+        <div class="footer-icons">
+          <a href="/"><i class="fab fa-behance"></i></a>
+          <a href="/"><i class="fab fa-instagram"></i></a>
+          <a href="/"><i class="fab fa-facebook"></i></a>
+          <a href="/"><i class="fab fa-twitter"></i></a>
+          <a href="/"><i class="fab fa-linkedin"></i></a>
+          <a href="/"><i class="fab fa-google-plus-g"></i></a>
+        </div>
+      </div>
+      <div class="contact footer-comp">
+        <h4 class="head center">CONTACT</h4>
+        <p>1384-00030<br>thediningdelight198@gmail.com</p>
+      </div>
+    </div>
+  </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
